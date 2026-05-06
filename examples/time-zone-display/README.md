@@ -20,6 +20,7 @@ A DIY multi-timezone wall clock + dashboard, replacing a previous attempt that u
 | [09](turns/09-budget-breakdown.md) | Budget breakdown across tiers | Four costed options: A ~$30–45 bench, B ~$290–380 sandwich, C ~$420–820 integrated, D ~$320–620 LAN-served. A→B path recommended; LAN-dependency tradeoff surfaced for D |
 | [10](turns/10-panel-pc-products.md) | Specific panel-PC products with internal SBCs | Search-term reframing ("panel PC" → "Android wall tablet"/"meeting room tablet"); Chipsee Pi CM4/CM5 panel PC (~$350) identified as Tier-2 front-runner; Tier-C cost floor revised down; turn-04 tablet veto narrowed (consumer-only, not purpose-built signage tablets) |
 | [11](turns/11-veto-android-and-locked-signage.md) | Veto Android and locked-appliance signage | Android-default panel PCs vetoed across all sub-tiers; Tizen/webOS/Q-Line/BrightSign vetoed (option D effectively removed). Surviving Tier-2 list: Pi CM4/CM5 panel PCs + Rockchip panel PCs with vendor Debian. Chipsee Pi CM4/CM5 10.1" reinforced as front-runner |
+| [12](turns/12-display-size-vs-form-factor.md) | Display size vs integrated form factor | Use case = home-office glance from ~2 m. Sizing rule (text height ≈ distance ÷ 200) pushes toward 15.6"+. Integrated Pi-CM panel-PC market caps at 15.6"; 21"+ requires falling back to Tier B (monitor + Pi sandwich). Front-runner promoted from 10.1" → 15.6" Chipsee CS15600RA4156P; Tier B reactivated as size-driven fallback |
 
 ## Current state of the spec
 
