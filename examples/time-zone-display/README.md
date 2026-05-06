@@ -1,0 +1,24 @@
+# Example: Time Zone Display
+
+A DIY multi-timezone wall clock + dashboard, replacing a previous attempt that used multiple standalone WiFi-NTP LCDs (which drifted out of sync visibly).
+
+**Live project repo:** `~/repos/github/my-repos/Time-Zone-Display-0526`
+**Status:** in progress — decision space narrowed but not yet locked.
+
+## Turn-by-turn log
+
+| # | Topic | Shift |
+|---|-------|-------|
+| [01](turns/01-initial-brief.md) | Initial brief: timezones, display size, ESP32 vs Pi question | Spec drafted |
+| [02](turns/02-orange-pi-and-architecture.md) | RPis unavailable; Orange Pis instead; min spec; standalone vs server architectures | Compute narrowed to Orange Pi; architecture chosen (server + thin clients) |
+| [03](turns/03-integrated-units-esp32-revisit.md) | "Pi on the back is ugly" — integrated options? ESP32 cleaner? | Mounting options enumerated; ESP32 reassessed honestly; tablet floated as cleanest |
+| [04](turns/04-veto-tablets.md) | Android tablets vetoed (unreliable for kiosk use) | Decision space collapsed to Pi-class SBC + 3 mounting paths |
+
+## Current state of the spec
+
+See [`../../../Time-Zone-Display-0526/planning/01-spec-and-decisions.md`](../../../Time-Zone-Display-0526/planning/01-spec-and-decisions.md) (lives in the project repo, not this one).
+
+Outstanding decisions:
+- Mounting path: HMI panel-PC vs monitor-sandwich vs shadow-box frame
+- API selections (weather, AQI source)
+- Layout: portrait vs landscape
