@@ -19,6 +19,7 @@ A DIY multi-timezone wall clock + dashboard, replacing a previous attempt that u
 | [08](turns/08-initial-vs-ideal-build.md) | Initial vs ideal build tiers | Two-tier roadmap: v1 = bench-build (existing monitor + Pi, glued); v2 = purpose-built kiosk panel (integrated SBC or LAN-served signage). Branded-portable demoted to v2 fallback; "smart monitor / all-in-one PC" category vetoed |
 | [09](turns/09-budget-breakdown.md) | Budget breakdown across tiers | Four costed options: A ~$30–45 bench, B ~$290–380 sandwich, C ~$420–820 integrated, D ~$320–620 LAN-served. A→B path recommended; LAN-dependency tradeoff surfaced for D |
 | [10](turns/10-panel-pc-products.md) | Specific panel-PC products with internal SBCs | Search-term reframing ("panel PC" → "Android wall tablet"/"meeting room tablet"); Chipsee Pi CM4/CM5 panel PC (~$350) identified as Tier-2 front-runner; Tier-C cost floor revised down; turn-04 tablet veto narrowed (consumer-only, not purpose-built signage tablets) |
+| [11](turns/11-veto-android-and-locked-signage.md) | Veto Android and locked-appliance signage | Android-default panel PCs vetoed across all sub-tiers; Tizen/webOS/Q-Line/BrightSign vetoed (option D effectively removed). Surviving Tier-2 list: Pi CM4/CM5 panel PCs + Rockchip panel PCs with vendor Debian. Chipsee Pi CM4/CM5 10.1" reinforced as front-runner |
 
 ## Current state of the spec
 
