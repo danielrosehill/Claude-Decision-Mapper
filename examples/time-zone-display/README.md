@@ -14,6 +14,7 @@ A DIY multi-timezone wall clock + dashboard, replacing a previous attempt that u
 | [03](turns/03-integrated-units-esp32-revisit.md) | "Pi on the back is ugly" — integrated options? ESP32 cleaner? | Mounting options enumerated; ESP32 reassessed honestly; tablet floated as cleanest |
 | [04](turns/04-veto-tablets.md) | Android tablets vetoed (unreliable for kiosk use) | Decision space collapsed to Pi-class SBC + 3 mounting paths |
 | [05](turns/05-panel-pc-costs-and-thermals.md) | Panel PC costings + reflashability; monitor-sandwich thermals | Cost benchmarks set (~$115–185 DIY vs ~$150–500 preassembled); sandwich thermals confirmed viable with vented enclosure + standoff + heatsink |
+| [06](turns/06-wireframe-times-and-penpot.md) | UTC-anchored time table for wireframe; Penpot MCP rebuild of the design | Wireframe v1 produced — hero row (Jerusalem + UTC), 3×2 grid west→east, footer dashboard |
 
 ## Current state of the spec
 
