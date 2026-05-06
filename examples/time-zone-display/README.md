@@ -16,6 +16,9 @@ A DIY multi-timezone wall clock + dashboard, replacing a previous attempt that u
 | [05](turns/05-panel-pc-costs-and-thermals.md) | Panel PC costings + reflashability; monitor-sandwich thermals | Cost benchmarks set (~$115–185 DIY vs ~$150–500 preassembled); sandwich thermals confirmed viable with vented enclosure + standoff + heatsink |
 | [06](turns/06-wireframe-times-and-penpot.md) | UTC-anchored time table for wireframe; Penpot MCP rebuild of the design | Wireframe v1 produced — hero row (Jerusalem + UTC), 3×2 grid west→east, footer dashboard |
 | [07](turns/07-reliability-slim-vesa.md) | Display selection: 24/7 reliability, slim, VESA; price tiers | Shadow-box eliminated; display tiers mapped; branded portable (~$180–250) is the sweet spot, Mimo Vue HDX-1080C the officially-24/7 stretch; Pi-side hardening logged as separate axis (eMMC, RO rootfs, watchdog) |
+| [08](turns/08-initial-vs-ideal-build.md) | Initial vs ideal build tiers | Two-tier roadmap: v1 = bench-build (existing monitor + Pi, glued); v2 = purpose-built kiosk panel (integrated SBC or LAN-served signage). Branded-portable demoted to v2 fallback; "smart monitor / all-in-one PC" category vetoed |
+| [09](turns/09-budget-breakdown.md) | Budget breakdown across tiers | Four costed options: A ~$30–45 bench, B ~$290–380 sandwich, C ~$420–820 integrated, D ~$320–620 LAN-served. A→B path recommended; LAN-dependency tradeoff surfaced for D |
+| [10](turns/10-panel-pc-products.md) | Specific panel-PC products with internal SBCs | Search-term reframing ("panel PC" → "Android wall tablet"/"meeting room tablet"); Chipsee Pi CM4/CM5 panel PC (~$350) identified as Tier-2 front-runner; Tier-C cost floor revised down; turn-04 tablet veto narrowed (consumer-only, not purpose-built signage tablets) |
 
 ## Current state of the spec
 
